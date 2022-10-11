@@ -1856,7 +1856,21 @@ footer .xia_zy .you .yy {
 .y_logoz {
     padding-left: 15px;
 }
+.y_logoz {
+    padding-left: 15px;
+}
 
+footer .xia_zy .you .yy h5 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'logod';
+}
+
+footer .xia_zy .you .yy h6 {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: 'logox';
+}
 footer .xia_zy .you .yy h5 {
     font-size: 40px;
     color: #FFFFFF;
@@ -1929,8 +1943,8 @@ padding: 150px ;
 }
 
 .article .article_detail p,h6{
-  text-indent: 2rem;
-  margin-top: 40px;
+  /* text-indent: 2rem; */
+  /* margin-top: 40px; */
   line-height: 30px;
   font-size: 16px;
   letter-spacing: 5px;
@@ -2134,7 +2148,21 @@ padding: 150px ;
   /* align-items: center; */
 
 }
-
+.article .you .sh_tx .yy_nr .level{
+    background: #f6f1f1;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+    /* align-items: center; */
+  
+  }
+  .article .you .sh_tx .yy_nr span{
+    height: 20px;
+    margin-left: 5px;
+    /* align-items: center; */
+  
+  }
 .article .you .sh_tx .yy_nr img{
   width: 24px;
   height: 20px;
