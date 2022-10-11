@@ -1198,14 +1198,15 @@ body {
 .sy_mk5 .neir_rong .zuoypu {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0 -10px;
     padding-bottom: 30px;
 }
 
 .sy_mk5 .neir_rong .zuoypu .dange {
-    flex: 0 0 14.28%;
-    max-width: 14.28%;
-    padding: 0 10px 10px;
+    flex: 0 0 18%;
+    max-width: 18%;
+    /* padding: 0 10px 10px; */
     margin-top: 30px;
 }
 
@@ -2056,7 +2057,7 @@ padding: 150px ;
 /* 右边部分 */
 
 .article .sidebar{
-  width: 300px;
+  width: 300px
 }
 
 
@@ -2242,5 +2243,31 @@ margin-right: 10px;
 color: #000000;
 margin-top: 10px;
 }
+.ggbt {
+    height: 56px;
+    background: #F7F7F7;
+    border: 1px solid #ECECEC;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
 
+.ggbt .zuo1 {
+    font-size: 18px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.ggbt .zuo1 img {
+    margin-right: 7px;
+}
+.zuoypu .dange {
+    flex: 0 0 20.28%;
+    max-width: 20.28%;
+    padding: 0 10px 10px;
+    margin-top: 30px;
+}
 /* 相关搜索 */
