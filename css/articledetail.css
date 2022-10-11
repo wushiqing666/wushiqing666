@@ -1189,6 +1189,8 @@ body {
 
 .sy_mk5 .xia_rmzy {
     padding: 2px 21px;
+    border: 1px solid #ECECEC;
+    border-top: none;
 }
 
 .sy_mk5 .neir_rong {
@@ -1215,6 +1217,7 @@ body {
 
 .sy_mk6 {
     padding-top: 20px;
+    border: 1px solid #ECECEC;
 }
 
 .sy_mk6 .ppt_xia_nr {
@@ -2299,3 +2302,9 @@ margin-top: 10px;
     margin-top: 30px;
 }
 /* 相关搜索 */
+
+.bar{
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+}
