@@ -347,3 +347,25 @@ $(document).ready(function() {
         });
     }
 });
+
+//悬浮窗
+$(document).ready(function(){
+  //  页面滚动事件
+ 
+ 
+  $(window).scroll(function() {
+    let dom=document.querySelector('.article_footer')
+    // console.log('dom: ', dom);
+   if($(document).scrollTop()>=1500){
+    dom.classList.remove('article_footer-fixed')
+    dom.classList.add('article_footer-static')
+    // console.log('变成静态定位了');
+   }
+   if($(document).scrollTop()<1500){
+    // console.log('变成固定定位了');
+    dom.classList.remove('article_footer-static')
+    dom.classList.add('article_footer-fixed')
+   }
+
+  })
+}())
